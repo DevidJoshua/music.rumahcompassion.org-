@@ -40,7 +40,7 @@ function App() {
             </a>
             <h1 style={{color:'white'}}>or</h1>
             <br/>
-            <button className="flex-c-m s1-txt2 size3 how-btn" onClick={()=>window.locattion='https://bit.ly/DaftarVocalMasterClass'}>
+            <button className="flex-c-m s1-txt2 size3 how-btn" onClick={()=>window.location="https://bit.ly/DaftarVocalMasterClass"}>
               Register Now
             </button>
           </div>
