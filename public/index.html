@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="%PUBLIC_URL%/assets/favicon/site.webmanifest">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> 
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===============================================================================================-->	
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/assets/favicon/favicon.ico"/>
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="f%PUBLIC_URL%/assets/onts/iconic/css/material-design-iconic-font.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/vendor/animate/animate.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/css/main.css">
+  <!--===============================================================================================-->
+    <title>Rumah Compassion Music</title>
+  </head>
+  <style>
+    .img-blur{
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+    }
+    .img-poster{
+      width: 100%;
+      height: 100%;
+      transition: transform .2s;
+    }
+    .img-poster:hover {
+      transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  </style>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  <!--===============================================================================================-->	
+	<script src="%PUBLIC_URL%/assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="%PUBLIC_URL%/assets/vendor/bootstrap/js/popper.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="%PUBLIC_URL%/assets/vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="%PUBLIC_URL%/assets/vendor/countdowntime/moment.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/vendor/countdowntime/countdowntime.js"></script>
+    <script>
+      $('.cd100').countdown100({
+        // Set Endtime here
+        // Endtime must be > current time
+        endtimeYear: 2020,
+        endtimeMonth: 11,
+        endtimeDate: 25,
+        endtimeHours: 23,
+        endtimeMinutes: 59,
+        endtimeSeconds: 0,
+        timeZone: "Indonesia/Jakarta" 
+        // ex:  timeZone: "America/New_York", can be empty
+        // go to " http://momentjs.com/timezone/ " to get timezone
+      });
+    </script>
+  <!--===============================================================================================-->
+    <script src="%PUBLIC_URL%/assets/vendor/tilt/tilt.jquery.min.js"></script>
+    <script >
+      $('.js-tilt').tilt({
+        scale: 1.1
+      })
+    </script>
+  <!--===============================================================================================-->
+    <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+</html>

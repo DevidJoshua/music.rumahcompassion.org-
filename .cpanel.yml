@@ -1,0 +1,5 @@
+---
+    deployment:
+      tasks:
+        - export DEPLOYPATH=/home/user/music.rumahcompassion.org/
+        - /build/cp -R build/ $DEPLOYPATH
