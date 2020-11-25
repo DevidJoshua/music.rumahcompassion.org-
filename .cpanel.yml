@@ -1,4 +1,4 @@
 ---
     deployment:
       tasks:
-        - /build/cp -R build/  /home/user/music-rumahcompassion/
+        - /build/cp -R build/*  /home/user/music-rumahcompassion/
